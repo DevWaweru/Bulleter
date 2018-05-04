@@ -18,6 +18,7 @@ def read_file(my_file):
             # print(data)
             return data
     except FileNotFoundError:
+        print("The text file was not found")
         return None
 
 # with open(my_file,"r") as bullet:
